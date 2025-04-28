@@ -78,7 +78,7 @@ Nutify is a comprehensive monitoring system designed to track the health and per
 
 ## Latest Version
 
-**Current Version**: 0.1.6 (15/04/2025)
+**Current Version**: 0.1.6 (28/04/2025)
 
 For a detailed list of changes and improvements, please see the [changelog.txt](changelog.txt) file.
 
