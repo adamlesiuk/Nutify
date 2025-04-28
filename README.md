@@ -153,13 +153,11 @@ services:
       - /dev:/dev:rw              # Full /dev access improves hotplug handling
       - /run/udev:/run/udev:ro    # Access to udev events
     environment:
-
       - SECRET_KEY=test1234567890 # for password encryption and decryption in the database
       - UDEV=1                    # Improve USB detection
     ports:
       - 3493:3493
       - 5050:5050
-      - 443:443
     restart: always
     user: root
 ```
