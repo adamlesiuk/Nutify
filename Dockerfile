@@ -39,7 +39,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     --with-nutclient \
     --with-python3 \
     --with-nut-scanner \
-    --with-drivers=usbhid-ups,nutdrv_qx,blazer_usb,blazer_ser,snmp-ups,richcomm_usb,tripplite_usb,riello_usb,apcsmart,mge-shut,genericups,liebert,victronups,powercom,clone,upscode2,bestups,belkin,netxml-ups \
     --datadir=/usr/share/nut \
     --with-drvpath=/usr/lib/nut \
     --with-statepath=/var/run/nut \
